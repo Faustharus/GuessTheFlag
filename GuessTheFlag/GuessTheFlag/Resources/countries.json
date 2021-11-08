@@ -1,0 +1,242 @@
+[
+    {
+        "id": 1001,
+        "name": "Algeria",
+        "capital": "Alger",
+        "flagsImage": "Algeria",
+        "review": "Algeria is a North African country with a coastline on the Mediterranean Sea and a desert interior, the Sahara. Many empires have left their mark here, such as the ancient Roman ruins of Tipasa, on the seashore. \nIn the capital, Algiers, Ottoman sites such as the Ketchaoua Mosque, dating from around 1612, line the Casbah district. Perched on a hill, this place has narrow alleys and stairs. \nThe Basilica of Notre-Dame d'Afrique, with its neo-Byzantine architecture, dates from the French colonial period.",
+        "continent": "Africa",
+        "coordinates": {
+            "latitude": 28.033886,
+            "longitude": 1.659626
+        }
+    },
+    {
+        "id": 1002,
+        "name": "Andorra",
+        "capital": "Andorra La Vella",
+        "flagsImage": "Andorra",
+        "review": "Andorra is a small independent principality located between France and Spain in the Pyrenees. It is known for its ski resorts and its reputation as a tax haven encouraging tax-free sales. \nAndorra la Vella, the capital, has several stores and jewelry stores on Avenida Meritxell, as well as several shopping centers. The old town, Barri Antic, is home to the Romanesque church of Santa Coloma and its circular belfry.",
+        "continent": "Europe",
+        "coordinates": {
+            "latitude": 42.506287,
+            "longitude": 1.521801
+        }
+    },
+    {
+        "id": 1003,
+        "name": "Argentina",
+        "capital": "Buenos Aires",
+        "flagsImage": "Argentina",
+        "review": "Argentina is a large country in South America with a very varied terrain where the mountains of the Andes, glacial lakes and the pampas, large pasture plains where the country's famous cattle graze. \nArgentina is famous for its tango and music. In the center of Buenos Aires, the great cosmopolitan capital, is the Plaza de Mayo, lined with 19th century buildings such as the Casa Rosada (Pink House), the presidential palace with balcony.",
+        "continent": "America",
+        "coordinates": {
+            "latitude": -34.616369,
+            "longitude": -58.391415
+        }
+    },
+    {
+        "id": 1004,
+        "name": "Australia",
+        "capital": "Canberra",
+        "flagsImage": "Australia",
+        "review": "Australia is a country and category surrounded by the Indian and Pacific Oceans. Its main cities, Sydney, Brisbane, Melbourne, Perth and Adelaide, are built on the coast. The capital, Canberra, is located inland. The country is known for the Sydney Opera House, the Great Barrier Reef, its vast wilderness and desert called the Outback, and its unique animal species such as the kangaroo and the platypus.",
+        "continent": "Oceania",
+        "coordinates": {
+            "latitude": -33.868857,
+            "longitude": 151.206079
+        }
+    },
+    {
+        "id": 1005,
+        "name": "Austria",
+        "capital": "Vienna",
+        "flagsImage": "Austria",
+        "review": "Austria is a German-speaking country in Central Europe characterized by mountain villages, baroque architecture, imperial history and rugged alpine terrain. Located on the Danube River, Vienna, the capital, is home to the Schönbrunn and Hofburg palaces. Mozart, Strauss and Freud have lived in the city. Other notable areas of the country include the Bohemian Forest and Lake Traunsee in the north and the vineyard hills in the east.",
+        "continent": "Europe",
+        "coordinates": {
+            "latitude": 47.516231,
+            "longitude": 14.550072
+        }
+    },
+    {
+        "id": 1006,
+        "name": "Belgium",
+        "capital": "Brussels",
+        "flagsImage": "Belgium",
+        "review": "Belgium is a Western European country known for its medieval cities, Renaissance architecture and for hosting the headquarters of the European Union and NATO. The country has distinct regions, including Dutch-speaking Flanders in the north, French-speaking Wallonia in the south and a German-speaking community in the east. Brussels, the bilingual capital, offers richly decorated guild houses on the Grand Place and elegant art nouveau buildings.",
+        "continent": "Europe",
+        "coordinates": {
+            "latitude": 51.153670,
+            "longitude": 4.249975
+        }
+    },
+    {
+        "id": 1007,
+        "name": "Brazil",
+        "capital": "Brasília",
+        "flagsImage": "Brazil",
+        "review": "Brazil, a vast South American country, stretches from the Amazon basin in the north to vineyards and Iguaçu Falls in the south. The city of Rio de Janeiro, characterized by its 38-meter-high statue of Christ the Redeemer atop Corcovado, is famous for its popular beaches of Copacabana and Ipanema, as well as its huge, lively carnival, with float parades, flamboyant costumes, and samba music and dance.",
+        "continent": "America",
+        "coordinates": {
+            "latitude": -15.793889,
+            "longitude": -47.882778
+        }
+    },
+    {
+        "id": 1008,
+        "name": "Cameroon",
+        "capital": "Yaoundé",
+        "flagsImage": "Cameroon",
+        "review": "Cameroon, in long form the Republic of Cameroon, is a country in Central Africa, located between Nigeria to the north-northwest, Chad to the north-northeast, the Central African Republic to the east, the Republic of Congo to the southeast, Gabon to the south, Equatorial Guinea to the southwest and the Gulf of Guinea to the southwest.",
+        "continent": "Africa",
+        "coordinates": {
+            "latitude": 3.832266,
+            "longitude": 11.534219
+        }
+    },
+    {
+        "id": 1009,
+        "name": "Canada",
+        "capital": "Ottawa",
+        "flagsImage": "Canada",
+        "review": "Canada is a North American country located between the United States to the south and the Arctic Circle to the north. The main cities are Toronto, Vancouver, the center of West Coast cinema, Montreal and Quebec City, both French-speaking, and Ottawa, the capital. Canada's vast wilderness includes Banff National Park with its many lakes in the Rocky Mountains. \nIt is also home to the famous and majestic Niagara Falls.",
+        "continent": "America",
+        "coordinates": {
+            "latitude": 45.363264,
+            "longitude": -75.668814
+        }
+    },
+    {
+        "id": 1010,
+        "name": "Chile",
+        "capital": "Santiago",
+        "flagsImage": "Chile",
+        "review": "Chile is a narrow corridor of land that stretches along the west coast of South America. The country's coastline follows the coast of the Pacific Ocean for more than 6,000 km. Santiago, its capital, sits in a valley between the Andes and the Costa Mountains. In the main square of the city, Plaza de Armas, stands a neo-classical cathedral and the National Museum of History. \nThe huge metropolitan park has swimming pools, a botanical garden and a zoo.",
+        "continent": "America",
+        "coordinates": {
+            "latitude": -33.478575,
+            "longitude": -70.641556
+        }
+    },
+    {
+        "id": 1011,
+        "name": "China",
+        "capital": "Beijing",
+        "flagsImage": "China",
+        "review": "China is a densely populated country in East Asia. Its vast territory offers a variety of landscapes: grasslands, deserts, mountains, lakes, rivers and more than 14,000 km of coastline. Beijing, the capital with its modern architecture, also has historical sites such as the Forbidden City Palace and Tian Anmen Square. \nShanghai is one of the world's largest financial centers and has many skyscrapers. The iconic Great Wall of China divides the north of the country from east to west.",
+        "continent": "Asia",
+        "coordinates": {
+            "latitude": 39.916668,
+            "longitude": 116.383331
+        }
+    },
+    {
+        "id": 1012,
+        "name": "Colombia",
+        "capital": "Bogotá",
+        "flagsImage": "Colombia",
+        "review": "Colombia is a country located in the extreme north of the South American category. Its territory is composed of tropical forests, the Andes Mountains and a multitude of coffee plantations. In Bogotá, its capital city perched at an altitude of more than 2,600 meters, the Zona Rosa district has established its reputation thanks to its numerous restaurants and stores. Cartagena de Indias, on the Caribbean coast, has an old colonial city surrounded by walls, a 16th century castle and coral reefs.",
+        "continent": "America",
+        "coordinates": {
+            "latitude": 4.624335,
+            "longitude": -74.063644
+        }
+    },
+    {
+        "id": 1013,
+        "name": "Costa Rica",
+        "capital": "San José",
+        "flagsImage": "CostaRica",
+        "review": "Costa Rica is a Central American country covered by tropical rainforest and located between the Caribbean Sea and the Pacific Ocean. Although its capital, San José, is home to cultural institutions such as the Pre-Columbian Gold Museum, Costa Rica is known for its beaches, volcanoes and biodiversity. About a quarter of its area is protected jungle, and extremely rich in flora and fauna. It is home to spider monkeys and quetzals.",
+        "continent": "America",
+        "coordinates": {
+            "latitude": 9.909079,
+            "longitude": -84.075124
+        }
+    },
+    {
+        "id": 1014,
+        "name": "Cuba",
+        "capital": "Havana",
+        "flagsImage": "Cuba",
+        "review": "Cuba is a communist island state in the Caribbean. There are spectacular sandy beaches and tobacco fields for the production of the legendary cigars. The capital, Havana, is rich with pastel-faced houses, 1950s cars and 16th-century Hispanic-Colonial architecture in Old Havana. You can listen to salsa in dance clubs and attend cabaret shows at the famous Tropicana.",
+        "continent": "America",
+        "coordinates": {
+            "latitude": 23.113592,
+            "longitude": -82.366592
+        }
+    },
+    {
+        "id": 1015,
+        "name": "Denmark",
+        "capital": "Copenhagen",
+        "flagsImage": "Denmark",
+        "review": "Denmark is a Scandinavian country that includes the Jutland peninsula and many islands. It is connected to nearby Sweden by the Øresund Bridge. Copenhagen, its capital, is home to the royal palaces and the colorful port of Nyhavn, as well as the Tivoli amusement park and the iconic Little Mermaid statue. Odense, the birthplace of writer Hans Christian Andersen, has a medieval quarter with cobblestone streets lined with half-timbered houses.",
+        "continent": "Europe",
+        "coordinates": {
+            "latitude": 55.403395,
+            "longitude": 12.346013
+        }
+    },
+    {
+        "id": 1016,
+        "name": "Egypt",
+        "capital": "Cairo",
+        "flagsImage": "Egypt",
+        "review": "Egypt is a bridge between Northeast Africa and the Middle East and its history dates back to the time of the Pharaohs. Ancient monuments line the banks of the fertile Nile Valley, including the Sphinx and the colossal pyramids of Giza. The city of Luxor is home to the Temple of Karnak and its hieroglyphs, as well as the tombs of the Valley of the Kings. Cairo, the capital, is full of Ottoman sites, such as the Mohammed Ali Mosque or the Egyptian Museum and its treasures of antiquities.",
+        "continent": "Africa",
+        "coordinates": {
+            "latitude": 30.033333,
+            "longitude": 31.233334
+        }
+    },
+    {
+        "id": 1017,
+        "name": "France",
+        "capital": "Paris",
+        "flagsImage": "France",
+        "review": "France, a Western European country, has medieval cities, Alpine villages and beaches. Paris, its capital, is famous for its fashion houses, classical art museums, including the Louvre, and monuments such as the Eiffel Tower. The country is also famous for its wines and fine cuisine. The cave paintings in the Lascaux caves, the Roman theater in Lyon and the huge castle in Versailles are all testament to its rich history.",
+        "continent": "Europe",
+        "coordinates": {
+            "latitude": 48.864716,
+            "longitude": 2.349014
+        }
+    },
+    {
+        "id": 1018,
+        "name": "French Polynesia",
+        "capital": "Papeete",
+        "flagsImage": "FrenchPolynesia",
+        "review": "French Polynesia, an overseas territory of France, comprises more than 100 islands in the South Pacific and extends over 2,000 km. The archipelagos of the Australs, the Gambiers, the Marquesas, the Society and the Tuamotus are known for their lagoons and their bungalow hotels on stilts. This territory is made up of white and black sand beaches, mountains, a wild hinterland and huge waterfalls.",
+        "continent": "Oceania",
+        "coordinates": {
+            "latitude": -17.535000,
+            "longitude": -149.569595
+        }
+    },
+    {
+        "id": 1019,
+        "name": "Germany",
+        "capital": "Berlin",
+        "flagsImage": "Germany",
+        "review": "Germany is a Western European country with a landscape of forests, rivers, mountain ranges and North Sea beaches. Its history dates back more than 2,000 years. With a vibrant art and nightlife scene, its capital city of Berlin includes the Brandenburg Gate and many World War II sites. Munich is known for its Oktoberfest and beer bars, including the 16th-century Hofbräuhaus. Frankfurt, with its skyscrapers, is home to the European Central Bank.",
+        "continent": "Europe",
+        "coordinates": {
+            "latitude": 52.517447,
+            "longitude": 13.405653
+        }
+    },
+    {
+        "id": 1020,
+        "name": "India",
+        "capital": "New Delhi",
+        "flagsImage": "India",
+        "review": "A huge country in South Asia, India offers a varied landscape, from the Himalayan peaks to the Indian Ocean coastline. Its history dates back 5 millennia. In the north are sites dating back to the Mughal Empire such as the Red Fort and the imposing Jama Masjid Mosque in Delhi and the iconic Tāj Mahal mausoleum in Agra. Pilgrims come to do their ablutions in the waters of the Ganges in Benares. \nRishikesh is the capital of yoga, but also the starting point for treks to the Himalayas.",
+        "continent": "Asia",
+        "coordinates": {
+            "latitude": 28.596578,
+            "longitude": 77.215945
+        }
+    }
+]

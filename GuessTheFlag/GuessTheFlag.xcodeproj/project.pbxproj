@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9E00A8A82736D50B00E57B77 /* EncyclopediaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E00A8A72736D50B00E57B77 /* EncyclopediaView.swift */; };
+		9E00A8AA2736DCDA00E57B77 /* Encyclopedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E00A8A92736DCDA00E57B77 /* Encyclopedia.swift */; };
+		9E03BE142737DB5C005355D8 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E03BE132737DB5C005355D8 /* MapView.swift */; };
+		9E05BFB4273820D800E24534 /* EncyclopediaDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E05BFB3273820D800E24534 /* EncyclopediaDetails.swift */; };
+		9E05BFB6273823EA00E24534 /* countries.json in Resources */ = {isa = PBXBuildFile; fileRef = 9E05BFB5273823EA00E24534 /* countries.json */; };
+		9E0F075D273585A6006CD448 /* HistoricBoardGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0F075C273585A6006CD448 /* HistoricBoardGame.swift */; };
+		9E47C4A42732C8C300F7526C /* GuessTheFlagApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E47C4A32732C8C300F7526C /* GuessTheFlagApp.swift */; };
+		9E47C4A62732C8C300F7526C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E47C4A52732C8C300F7526C /* ContentView.swift */; };
+		9E47C4A82732C8C400F7526C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E47C4A72732C8C400F7526C /* Assets.xcassets */; };
+		9E47C4AB2732C8C400F7526C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E47C4AA2732C8C400F7526C /* Preview Assets.xcassets */; };
+		9E5C7ED52734367900A60E1F /* FlagImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5C7ED42734367900A60E1F /* FlagImage.swift */; };
+		9E5C7ED72734373900A60E1F /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5C7ED62734373900A60E1F /* GameView.swift */; };
+		9E9E849127383D900001A9C2 /* EncyclopediaRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9E849027383D900001A9C2 /* EncyclopediaRow.swift */; };
+		9EAB425727356ABB0051DEF4 /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EAB425627356ABB0051DEF4 /* Board.swift */; };
+		9EAB425A27356B310051DEF4 /* HistoricBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EAB425927356B310051DEF4 /* HistoricBoard.swift */; };
+		9EAB425E27357A890051DEF4 /* BoardGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EAB425D27357A890051DEF4 /* BoardGame.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9E00A8A72736D50B00E57B77 /* EncyclopediaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncyclopediaView.swift; sourceTree = "<group>"; };
+		9E00A8A92736DCDA00E57B77 /* Encyclopedia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Encyclopedia.swift; sourceTree = "<group>"; };
+		9E03BE132737DB5C005355D8 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		9E05BFB3273820D800E24534 /* EncyclopediaDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncyclopediaDetails.swift; sourceTree = "<group>"; };
+		9E05BFB5273823EA00E24534 /* countries.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = countries.json; sourceTree = "<group>"; };
+		9E0F075C273585A6006CD448 /* HistoricBoardGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoricBoardGame.swift; sourceTree = "<group>"; };
+		9E47C4A02732C8C300F7526C /* GuessTheFlag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuessTheFlag.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E47C4A32732C8C300F7526C /* GuessTheFlagApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessTheFlagApp.swift; sourceTree = "<group>"; };
+		9E47C4A52732C8C300F7526C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9E47C4A72732C8C400F7526C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9E47C4AA2732C8C400F7526C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9E5C7ED42734367900A60E1F /* FlagImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagImage.swift; sourceTree = "<group>"; };
+		9E5C7ED62734373900A60E1F /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		9E9E849027383D900001A9C2 /* EncyclopediaRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncyclopediaRow.swift; sourceTree = "<group>"; };
+		9EAB425627356ABB0051DEF4 /* Board.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
+		9EAB425927356B310051DEF4 /* HistoricBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoricBoard.swift; sourceTree = "<group>"; };
+		9EAB425D27357A890051DEF4 /* BoardGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardGame.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9E47C49D2732C8C300F7526C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9E00A8A52736D4C000E57B77 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9E9E849227383EFD0001A9C2 /* Encyclopedia */,
+				9E00A8A62736D4E700E57B77 /* Game */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9E00A8A62736D4E700E57B77 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				9E5C7ED62734373900A60E1F /* GameView.swift */,
+				9EAB425D27357A890051DEF4 /* BoardGame.swift */,
+				9E0F075C273585A6006CD448 /* HistoricBoardGame.swift */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		9E00A8AD2736DF6100E57B77 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9E05BFB5273823EA00E24534 /* countries.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		9E47C4972732C8C300F7526C = {
+			isa = PBXGroup;
+			children = (
+				9E47C4A22732C8C300F7526C /* GuessTheFlag */,
+				9E47C4A12732C8C300F7526C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9E47C4A12732C8C300F7526C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9E47C4A02732C8C300F7526C /* GuessTheFlag.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9E47C4A22732C8C300F7526C /* GuessTheFlag */ = {
+			isa = PBXGroup;
+			children = (
+				9E47C4A32732C8C300F7526C /* GuessTheFlagApp.swift */,
+				9E47C4A52732C8C300F7526C /* ContentView.swift */,
+				9E00A8A52736D4C000E57B77 /* Views */,
+				9EAB425B27356D5D0051DEF4 /* ViewModels */,
+				9EAB425827356B020051DEF4 /* Models */,
+				9EAB425C27356FBD0051DEF4 /* Components */,
+				9E00A8AD2736DF6100E57B77 /* Resources */,
+				9E47C4A72732C8C400F7526C /* Assets.xcassets */,
+				9E47C4A92732C8C400F7526C /* Preview Content */,
+			);
+			path = GuessTheFlag;
+			sourceTree = "<group>";
+		};
+		9E47C4A92732C8C400F7526C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9E47C4AA2732C8C400F7526C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9E9E849227383EFD0001A9C2 /* Encyclopedia */ = {
+			isa = PBXGroup;
+			children = (
+				9E00A8A72736D50B00E57B77 /* EncyclopediaView.swift */,
+				9E9E849027383D900001A9C2 /* EncyclopediaRow.swift */,
+				9E05BFB3273820D800E24534 /* EncyclopediaDetails.swift */,
+			);
+			path = Encyclopedia;
+			sourceTree = "<group>";
+		};
+		9EAB425827356B020051DEF4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9EAB425627356ABB0051DEF4 /* Board.swift */,
+				9E00A8A92736DCDA00E57B77 /* Encyclopedia.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9EAB425B27356D5D0051DEF4 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				9EAB425927356B310051DEF4 /* HistoricBoard.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		9EAB425C27356FBD0051DEF4 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				9E5C7ED42734367900A60E1F /* FlagImage.swift */,
+				9E03BE132737DB5C005355D8 /* MapView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9E47C49F2732C8C300F7526C /* GuessTheFlag */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E47C4AE2732C8C400F7526C /* Build configuration list for PBXNativeTarget "GuessTheFlag" */;
+			buildPhases = (
+				9E47C49C2732C8C300F7526C /* Sources */,
+				9E47C49D2732C8C300F7526C /* Frameworks */,
+				9E47C49E2732C8C300F7526C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GuessTheFlag;
+			productName = GuessTheFlag;
+			productReference = 9E47C4A02732C8C300F7526C /* GuessTheFlag.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9E47C4982732C8C300F7526C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					9E47C49F2732C8C300F7526C = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = 9E47C49B2732C8C300F7526C /* Build configuration list for PBXProject "GuessTheFlag" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9E47C4972732C8C300F7526C;
+			productRefGroup = 9E47C4A12732C8C300F7526C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9E47C49F2732C8C300F7526C /* GuessTheFlag */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9E47C49E2732C8C300F7526C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E47C4AB2732C8C400F7526C /* Preview Assets.xcassets in Resources */,
+				9E47C4A82732C8C400F7526C /* Assets.xcassets in Resources */,
+				9E05BFB6273823EA00E24534 /* countries.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9E47C49C2732C8C300F7526C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E00A8A82736D50B00E57B77 /* EncyclopediaView.swift in Sources */,
+				9E5C7ED52734367900A60E1F /* FlagImage.swift in Sources */,
+				9EAB425A27356B310051DEF4 /* HistoricBoard.swift in Sources */,
+				9E47C4A62732C8C300F7526C /* ContentView.swift in Sources */,
+				9E9E849127383D900001A9C2 /* EncyclopediaRow.swift in Sources */,
+				9E03BE142737DB5C005355D8 /* MapView.swift in Sources */,
+				9EAB425727356ABB0051DEF4 /* Board.swift in Sources */,
+				9E00A8AA2736DCDA00E57B77 /* Encyclopedia.swift in Sources */,
+				9E0F075D273585A6006CD448 /* HistoricBoardGame.swift in Sources */,
+				9EAB425E27357A890051DEF4 /* BoardGame.swift in Sources */,
+				9E5C7ED72734373900A60E1F /* GameView.swift in Sources */,
+				9E05BFB4273820D800E24534 /* EncyclopediaDetails.swift in Sources */,
+				9E47C4A42732C8C300F7526C /* GuessTheFlagApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9E47C4AC2732C8C400F7526C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9E47C4AD2732C8C400F7526C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E47C4AF2732C8C400F7526C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GuessTheFlag/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chailloleaudamien.GuessTheFlag;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		9E47C4B02732C8C400F7526C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GuessTheFlag/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chailloleaudamien.GuessTheFlag;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9E47C49B2732C8C300F7526C /* Build configuration list for PBXProject "GuessTheFlag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E47C4AC2732C8C400F7526C /* Debug */,
+				9E47C4AD2732C8C400F7526C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E47C4AE2732C8C400F7526C /* Build configuration list for PBXNativeTarget "GuessTheFlag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E47C4AF2732C8C400F7526C /* Debug */,
+				9E47C4B02732C8C400F7526C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9E47C4982732C8C300F7526C /* Project object */;
+}
